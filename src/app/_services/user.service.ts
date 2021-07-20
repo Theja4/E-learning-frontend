@@ -11,7 +11,7 @@ const API_URL = 'http://localhost:8084/users/';
   providedIn: 'root'
 })
 export class UserService {
-  private baseUrl='http://localhost:8084/professors';
+  private baseUrl='http://localhost:8084/doctors';
   private baseUrl2='http://localhost:8084/students';
   did:any;
   constructor(private http: HttpClient) { }

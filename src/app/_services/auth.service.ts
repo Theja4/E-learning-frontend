@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 
 const AUTH_API = 'http://localhost:8084/putdoctors';
-const AUTH_API2 = 'http://localhost:8084/addStudent';
+const AUTH_API2 = 'http://localhost:8084/addpatient';
 const AUTH_API3 = 'http://localhost:8084/updateForm';
 const AUTH_API4 = 'http://localhost:8084/addpres';
 const httpOptions = {

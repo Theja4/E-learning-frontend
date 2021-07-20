@@ -12,7 +12,7 @@ const API_URL = 'http://localhost:8084/users/';
 })
 export class UserService {
   private baseUrl='http://localhost:8084/doctors';
-  private baseUrl2='http://localhost:8084/students';
+  private baseUrl2='http://localhost:8084/patients';
   did:any;
   constructor(private http: HttpClient) { }
 
